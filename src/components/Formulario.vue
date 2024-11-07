@@ -1,5 +1,5 @@
 <script setup>
-    const props = defineProps(["getNumero1", "getNumero2", "getResultado", "getOperador"]);
+    const props = defineProps(["getNumber1", "getNumber2", "getResultado", "getOperador"]);
 </script>
 
 <template>
@@ -10,10 +10,10 @@
             </div>
             <div class="col-md-2 mb-4 text-center">
             <select class="form-control text-center" @change="props.getOperador">
-                <option class="subtrair text-center" value="subtrair"><p>-</p></option>
-                <option class="somar text-center" selected value="somar"><p>+</p></option>
-                <option class="dividir text-center" value="dividir"><p>÷</p></option>
-                <option class="multiplicar text-center" value="multiplicar"><p>x</p></option>
+                <option class="subtrair text-center" value="subtrair">-</option>
+                <option class="somar text-center" selected value="somar">+</option>
+                <option class="dividir text-center" value="dividir">÷</option>
+                <option class="multiplicar text-center" value="multiplicar">x</option>
             </select>
             </div>
             <div class="col">
