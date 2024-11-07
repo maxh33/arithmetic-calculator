@@ -22,7 +22,7 @@
 
 <style scoped>
 .black-text {
-  color: #000;
+    color: #000;
 }
 
 li:hover {
