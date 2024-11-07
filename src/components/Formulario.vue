@@ -27,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col">
-            <h2 class="black-text fs-1 fw-bold ps-2">{{ props.resultado }}</h2>
+            <h2 class="black-text fs-1 fw-bold ps-2 mb-2">{{ props.resultado }}</h2>
             </div>
         </div>
     </form>

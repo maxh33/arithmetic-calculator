@@ -68,7 +68,7 @@ const getOperacao = () => {
 
 <style scoped>
 .container {
-  max-width: 800px;
+  max-width: 640px;
   width: 100%;
   color: #b8b8b8;
 }
