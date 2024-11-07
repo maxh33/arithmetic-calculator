@@ -55,10 +55,10 @@ const getOperacao = () => {
   <div class="container">
     <Cabecalho />
     <Formulario 
-      :getNumero1="numero1"
-      :getNumero2="numero2"
-      :getResultado="resultado"
-      :getOperador="operador"
+      :get-Number-1="getNumber1"
+      :get-Number-2="getNumber2"
+      :resultado="estado.resultado"
+      :get-Operador="getOperador"
     />
     <Rodape />  
     

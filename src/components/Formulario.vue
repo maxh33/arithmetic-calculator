@@ -1,9 +1,9 @@
 <script setup>
-    const props = defineProps(["getNumber1", "getNumber2", "getResultado", "getOperador"]);
+    const props = defineProps(["getNumber1", "getNumber2", "getOperador", "resultado"]);
 </script>
 
 <template>
-        <form class="text-center">
+    <form class="text-center">
         <div class="row">
             <div class="col">
             <input required type="number" placeholder="0" class="form-control mb-4" @keyup="props.getNumber1"/> 
@@ -30,7 +30,7 @@
             <h2 class="black-text fs-1 fw-bold ps-2">{{ props.resultado }}</h2>
             </div>
         </div>
-        </form>
+    </form>
 </template>
 
 <style scoped>
